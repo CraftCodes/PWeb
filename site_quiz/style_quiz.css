@@ -12,7 +12,8 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 10px 20px 10px 20px;
-    background-color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
     border-radius: 10px;
 }
 
