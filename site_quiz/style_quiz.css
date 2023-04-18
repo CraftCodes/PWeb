@@ -12,27 +12,25 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 10px 20px 10px 20px;
-    background-color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border: 1px solid white;
     border-radius: 10px;
 }
 
 h1 {
     text-align: center;
+    color: #fff;
 }
   
 ol {
     list-style: none;
-    counter-reset: question;
+    color: #fff;
     padding: 0;
 }
   
 li {
-    counter-increment: question;
     margin-bottom: 20px;
-}
-  
-h2::before {
-    content: counter
 }
 
 input[type='submit'] {
