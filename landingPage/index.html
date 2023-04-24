@@ -9,47 +9,45 @@
       <h1>Agência de Viagens zecarneiro </h1>
       <nav>
         <ul>
-          <li><a href="#">Destinos</a></li>
-          <li><a href="#">Pacotes</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a id="btn-header" href="#">Destinos</a></li>
+          <li><a id="btn-header" href="#">Pacotes</a></li>
+          <li><a id="btn-header" href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
     <section class="hero">
       <h2>Sua próxima aventura começa aqui</h2>
-      <form action="cadastro.php" method="post">
+      <form>
         <input type="email" name="email" placeholder="Digite seu e-mail" required>
-        <button type="submit">Inscreva-se</button>
+        <button class="submit-btn" type="submit">Inscreva-se</button>
       </form>
     </section>
     <section class="destinations">
       <h2>Destinos populares</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="https://s4.static.brasilescola.uol.com.br/be/2021/05/cidade-sp.jpg" alt="Destino 1">
+
+        <section class="display destino destino-1">
+
             <h3>São Paulo</h3>
             <p>São Paulo, centro financeiro do Brasil, está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica. Há prédios simbólicos como a catedral neogótica, o Edifício Martinelli, um arranha-céu inaugurado em 1929, e o Edifício Copan, com suas linhas curvas projetadas pelo arquiteto modernista Oscar Niemeyer.</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="https://bigviagem.com/wp-content/uploads/2010/03/Jo%C3%A3o-Pessoa.jpg" alt="Destino 2">
+
+      </section>
+
+      <section class="display destino destino-2">
+
             <h3>João Pessoa</h3>
             <p>João Pessoa é uma cidade costeira próxima da foz do rio Paraíba, no leste do Brasil. A sua cidade velha é conhecida pela arquitetura barroca e art nouveau. A igreja de São Francisco, do século XVI, tem azulejos portugueses pintados no pátio e uma capela ornamentada com ouro.</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/02/salvador-capital.jpg" alt="Destino 3">
+
+      </section>
+
+      <section class="display destino destino-3">
+
             <h3>Salvador</h3>
             <p>Salvador, a capital do estado da Bahia no nordeste do Brasil, é conhecida pela arquitetura colonial portuguesa, pela cultura afrobrasileira e pelo litoral tropical. O bairro do Pelourinho é seu coração histórico, com vielas de paralelepípedo terminando em praças grandes, prédios coloridos e igrejas barrocas, como São Francisco, com trabalhos em madeira revestidos com ouro.</p>
-          </a>
-        </li>
-      </ul>
+
+      </section>
     </section>
     <footer>
-      <p>Direitos autorais © 2023. Todos os direitos reservados.</p>
+      <p>2023 © Feito por CraftCodes. Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
