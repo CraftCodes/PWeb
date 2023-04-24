@@ -182,6 +182,7 @@ h2{
     color: white;
     cursor: pointer;
     transition: 0.5s ease-in-out;
+    text-decoration: none;
 }
 
 .card-text {
