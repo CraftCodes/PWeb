@@ -1,0 +1,131 @@
+body {
+    background-image: url(imagen2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+  
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+  
+ol {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 20px;
+}
+
+input[type='submit'] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(131, 82, 120);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 3px solid #fff;
+    border-radius: 9999px;
+    transform: translateY(0.12em);
+    cursor: pointer;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+}
+
+input[type="radio"]:checked {
+    transition: 110ms ease-in;
+    background-color:cornflowerblue;
+}
+
+input[type="radio"]:checked::before {
+    transition: 110ms ease-out;
+    transform: scale(1);
+}
+
+input[type="radio"]:focus {
+    outline: max(1px, 0.15em) solid cornflowerblue;
+    outline-offset: max(2px, 0.15em);
+}
+
+input[type='submit']:hover {
+    background-color: rgb(89, 77, 122);
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 131, 95);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(217, 110, 108);
+}
+
+.botaovoltar {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px white solid;
+    border-radius: 50%;
+    z-index: 2;
+    top: 2vw;
+    left: 2vh;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+.botaovoltar ion-icon{
+    color: white;
+    width: 100%;
+    height: 50%;
+}
