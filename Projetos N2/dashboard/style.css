@@ -6,14 +6,17 @@ body {
   background-image: url(./media/pxfuel.jpg);
   background-size: cover;
   background-position: center;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
   width: 100vw;
   height: 100vh;
 }
 
 h1 {
+  display: flex;
   color: white;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 table {
@@ -48,4 +51,10 @@ table tr:hover {
 img{
   width: 2rem;
   height: 2rem;
+}
+
+.logo{
+  height: 5rem;
+  width: 5rem;
+  margin-left: 1rem;
 }
