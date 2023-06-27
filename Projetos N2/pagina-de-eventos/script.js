@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const taylorShow = "17 Nov 2023";
+const taylorShow = "20 Jul 2023";
 
 function countdown(){
 
