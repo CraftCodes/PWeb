@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gotham-Spotify';
+    src: url(./Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Spotify-Light';
+    src: url(./Gotham-Light.otf);
+}
