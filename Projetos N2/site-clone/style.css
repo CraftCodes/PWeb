@@ -20,16 +20,20 @@
     left: 0;
     top: 0;
     bottom: 0;
-    width: 196px;
+    width: 24rem;
     background-color: #000000;
-    padding: 24px;
+    padding: 8px;
   }
-  .sidebar .logo img {
-    width: 130px;
+
+  .sidebar .navbar-1, .navbar-2{
+    background-color: rgb(24, 23, 23);
+    border-radius: 1rem;
+    padding-left: 1rem;
   }
+
   .sidebar .navigation ul {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 8px;
   }
   .sidebar .navigation ul li {
     padding: 10px 0px;
@@ -38,7 +42,7 @@
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 1rem;
   }
   .sidebar .navigation ul li a:hover,
   .sidebar .navigation ul li a:active,
@@ -60,6 +64,7 @@
     color: #ffffff;
   }
   .sidebar .policies {
+    margin-bottom: 2rem;
     position: absolute;
     bottom: 100px;
   }
@@ -80,9 +85,25 @@
   .sidebar .policies ul li a:focus {
     text-decoration: underline;
   }
+
+  .btn-language{
+    margin-bottom: 1rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9999px;
+    padding: 3px 15px 3px 28px;
+    font-family: 'Gotham-Spotify';
+    width: 13rem;
+    height: 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor: pointer;
+  }
   
   .main-container {
-    margin-left: 245px;
+    margin-left: 0vw;
     margin-bottom: 100px;
   }
   
@@ -217,6 +238,7 @@
   }
   
   .preview {
+    margin: 10px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -248,3 +270,23 @@
     border-radius: 40px;
     cursor: pointer;
   }
+
+  .divcinza{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #242424;
+    width: 95%;
+    height: 7rem;
+    border-radius: 9px;
+  }
+
+.subtexto-button{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 9999px;
+  width: 9rem;
+  height: 2rem;
+  font-family: 'Gotham-Spotify';
+}
