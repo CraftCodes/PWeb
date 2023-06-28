@@ -76,6 +76,7 @@ span{
     background-image: url(glitter.png);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .centrall{
@@ -129,7 +130,8 @@ span{
     text-align: center;
 }
 
-img{
+.info img{
+    margin-top: 25px;
     border: 1px solid white;
     border-radius: 30px;
     display: flex;
