@@ -78,18 +78,20 @@ span{
     width: 100%;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     
     background-image: url(glitter.png);
     background-size: cover;
     background-repeat: no-repeat;
+    transform: scaleX(-1);
     -webkit-text-stroke: 2px rgb(187, 62, 160);
     color: white;
     flex-direction: column;
     
 }
 .info h2{
+    transform: scaleX(-1);
     font-size: 2em;
     text-align: center;
 }
@@ -100,7 +102,7 @@ span{
 }
 .cinema{
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
     justify-content: center;
     display: flex;
     font-size: 2em;
@@ -108,20 +110,30 @@ span{
 }
 
 .texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: scaleX(-1);
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
     width: 90%;
 }
 
+.texto img{
+    width: 5rem;
+    height: 5rem;
+}
+
 
 .ingresso {
+    transform: scaleX(-1);
     margin-top: 3em;
     font-size: 4em;
     text-align: center;
 }
 
 .compre{
+transform: scaleX(-1);
 font-size: 4em;
 text-decoration: none;
 border: 1px solid;
@@ -130,6 +142,69 @@ padding: 5px;
 background-color: rgb(125, 178, 238);
 margin: 1em;
 text-align: center;
+}
+
+.info-2{
+    padding: 10px;
+    background-image:url(./bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+
+.info-2 .catalogo_produto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke: 1px rgb(187, 62, 160);
+    font-size: 60px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(252, 171, 212);
+    border: 1px solid palevioletred;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px 15rem;
+}
+  
+.product img {
+    justify-self: center;
+    max-width: 5rem;
+    margin-left: 1rem;
+}
+  
+.product h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+}
+  
+.product p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.buy{
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    font-family: 'barbie';
+    justify-self: center;
+    align-self: center;
 }
 
 .compre:link, .compre:visited {
