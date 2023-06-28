@@ -168,12 +168,16 @@ text-align: center;
     backdrop-filter: blur(4px);
 }
 
-.info-2 .catalogo_produto{
+h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: baseline;
     color: white;
     -webkit-text-stroke: 1px rgb(187, 62, 160);
-    font-size: 60px;
 }
 
 .product {
