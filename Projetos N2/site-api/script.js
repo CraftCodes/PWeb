@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
 
-  const apiKey = 'live_088bd9a34bd6450d239d40d62f2832';
+  const apiKey = 'live_cabac4fb76ba295464163490b78291';
 
   const headers = {
     'Content-Type': 'application/json',

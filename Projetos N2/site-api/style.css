@@ -6,9 +6,18 @@ body {
   background-image: url(./media/pxfuel.jpg);
   background-size: cover;
   background-position: center;
-  backdrop-filter: blur(6px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
+}
+
+.titulo{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-self: center;
+  margin: 0px 10rem;
 }
 
 h1 {
@@ -17,15 +26,25 @@ h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 10px;
+
 }
 
 table {
-  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  width: 70% !important;
+  height: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  border-radius: 1rem;
+  margin: auto;
 }
 
 table th, table td {
+  width: 20px;
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #ddd;
