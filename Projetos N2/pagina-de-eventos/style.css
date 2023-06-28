@@ -72,18 +72,26 @@ span{
     -webkit-text-stroke: 1px rgb(187, 62, 160);
 
 }
+.imag{
+    background-image: url(glitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centrall{
+    display: flex;
+    justify-content: center;
+}
+
 
 .info{
     display: flex;
     width: 100%;
     align-items: center;
-    width: 100vw;
-    height: 100%;
+    width: 80vw;
+
     margin: 0;
-    
-    background-image: url(glitter.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    justify-content: center;
     transform: scaleX(-1);
     -webkit-text-stroke: 2px rgb(187, 62, 160);
     color: white;
@@ -110,16 +118,18 @@ span{
 }
 
 .texto {
+    position: sticky;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     transform: scaleX(-1);
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
     width: 90%;
+    text-align: center;
 }
 
-.texto img{
+img{
     border: 1px solid white;
     border-radius: 30px;
     display: flex;
