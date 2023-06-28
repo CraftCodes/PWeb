@@ -120,8 +120,12 @@ span{
 }
 
 .texto img{
-    width: 5rem;
-    height: 5rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    width: 30rem;
+    align-self: center;
+    justify-self: end;
 }
 
 
@@ -205,6 +209,12 @@ text-align: center;
     font-family: 'barbie';
     justify-self: center;
     align-self: center;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.buy:hover{
+    background-color: darkgreen;
 }
 
 .compre:link, .compre:visited {
